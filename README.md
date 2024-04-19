@@ -20,7 +20,7 @@
      const velocidad = 2;
 
      function animar ( ) {
-       // Liampiar el canvas
+       // Liampiar el anvas
        ctx.ClearRect(0, 0, canvas.width, canvas.height);
 
        //  Dibujar el objeto 
@@ -30,7 +30,7 @@
        // Mover el objeto
        x += velocidad;
 
-       // Revisar si el objeto ha salido de canvas 
+       // Revisar si el objeto ha salido de vanvas 
        if (x > canvas.width) {
        x = -50; // Reiniciar la posicion del objeto 
        }
