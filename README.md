@@ -32,10 +32,11 @@
 
        // Revisar si el objeto ha salido de vanvas 
        if (x > canvas.width) {
-       x = -50; // Reiniciar la posicion del objeto 
+       x = -50; 
+       // Reiniciar la posicion del objeto 
        }
 
-       /solicitar el siguiente cuadro de animacio
+       //solicitar el siguiente cuadro de animacio
        requestAnimationFrame(animar); 
        }
 
